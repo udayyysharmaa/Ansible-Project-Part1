@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    repository_url: https://github.com/udayyysharmaa/Secretsanta-generator.git
+    repository_url: https://github.com/udayyysharmaa/secretsanta-generator.git
   vars_files:
     - docker_credentials.yml
   tasks:
